@@ -105,8 +105,8 @@ services:
         container_name: minio
         image: 'bitnami/minio:2023' 
         environment:
-            MINIO_ACCESS_KEY: minio_admin
-            MINIO_SECRET_KEY: minio_password
+            MINIO_ROOT_USER: minio_admin
+            MINIO_ROOT_PASSWORD: minio_password
         ports:
             - '9000:9000'
             - '9001:9001'

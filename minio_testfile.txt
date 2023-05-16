@@ -1,0 +1,1 @@
+MinIO in Big Data Infrastructure of UPM
